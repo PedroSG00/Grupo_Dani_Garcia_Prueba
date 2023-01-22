@@ -1,1 +1,1 @@
-# Grupo_Dani_Garc-a_Prueba
+# Grupo_Dani_Garcia_Prueba
