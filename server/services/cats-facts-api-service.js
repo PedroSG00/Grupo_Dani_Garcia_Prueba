@@ -1,0 +1,22 @@
+const axios = require('axios')
+
+class CatFactApiService {
+
+    constructor() {
+
+        this.axiosApp = axios.create({
+            baseURL: 'https://catfact.ninja'
+        })
+
+    }
+
+    getCatFact() {
+        return this.axiosApp.get(`/fact`)
+    }
+
+
+}
+
+const catFactApiService = new CatFactApiService()
+
+module.exports = catFactApiService
