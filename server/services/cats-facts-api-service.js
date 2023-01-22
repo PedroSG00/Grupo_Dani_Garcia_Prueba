@@ -10,10 +10,7 @@ class CatFactApiService {
 
     }
 
-    getCatFact() {
-        return this.axiosApp.get(`/fact`)
-    }
-
+    getCatFact = () => this.axiosApp.get(`/fact`)
 
 }
 

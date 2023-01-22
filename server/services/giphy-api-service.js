@@ -1,5 +1,4 @@
 const axios = require('axios')
-const { get } = require('mongoose')
 const API_KEY = process.env.API_KEY_GIPHY
 
 class GiphyApiService {
@@ -12,7 +11,7 @@ class GiphyApiService {
 
     }
 
-    getGif = (query) => get(`/search/api_key=${API_KEY}&q=${query}`)
+    getGif = (query) => this.axiosApp.get(`/search?api_key=${API_KEY}&q=${query}`)
 
 }
 
