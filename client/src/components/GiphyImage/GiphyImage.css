@@ -1,0 +1,11 @@
+.GiphyImage {
+    width: 500px;
+    height: 500px;
+}
+
+@media (min-width: 576px) {
+    GiphyImage {
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -2,6 +2,7 @@ const { getCatFact } = require('../services/cats-facts-api-service')
 const { getGif } = require('../services/giphy-api-service')
 
 const getFactAndGif = async (req, res, next) => {
+
     try {
         const { data: { fact } } = await getCatFact()
         const cuttedFact = fact.split(' ').slice(0, 3).join(' ')

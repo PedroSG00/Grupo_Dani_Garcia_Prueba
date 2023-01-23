@@ -1,6 +1,7 @@
-import axios from "axios";
+import axios from "axios"
 
 class FactAndImageService {
+
     constructor() {
         this.api = axios.create({
 
@@ -12,7 +13,6 @@ class FactAndImageService {
     getFactAndImage = () => this.api.get('/fact-and-gif')
 
 }
-
 
 const factAndImageService = new FactAndImageService()
 

@@ -4,7 +4,7 @@ const Fact = ({ fact }) => {
 
 
     return (
-        <p className='fs-4 fw-bold'>{fact}</p>
+        <p className='fs-4 fw-bold text-center'>{fact}</p>
     )
 }
 

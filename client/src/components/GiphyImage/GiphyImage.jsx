@@ -2,12 +2,9 @@ import './GiphyImage.css'
 
 const GiphyImage = ({ giphyImage }) => {
 
-    console.log(giphyImage, '-------------')
-
     return (
-        <img src={`${giphyImage}`} alt="Nothing" />
+        <img src={`${giphyImage}`} alt="Nothing" className='p-3 GiphyImage' />
     )
 }
-
 
 export default GiphyImage
