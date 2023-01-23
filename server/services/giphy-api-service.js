@@ -6,7 +6,7 @@ class GiphyApiService {
     constructor() {
 
         this.axiosApp = axios.create({
-            baseURL: 'api.giphy.com/v1/gifs'
+            baseURL: 'https://api.giphy.com/v1/gifs'
         })
 
     }
