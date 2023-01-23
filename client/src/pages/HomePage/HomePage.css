@@ -1,0 +1,25 @@
+.HomePage {
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/abstract-organic-lines-background_1017-26669.jpg?w=1060&t=st=1674476719~exp=1674477319~hmac=d3b56b0daa0e668d8d4a5ccc307d1f83cf868fc7ba036bf51c02bebf70d272bf');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.color-bg-h1 {
+    background-color: #ffbe32;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #C9C9C9;
+    padding: 10px;
+}
+
+.hover-btn {
+    color: rgba(0, 0, 0, 0.897) !important;
+    background-color: #ffbe32 !important;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: none !important;
+}
+
+.hover-btn:hover {
+    color: whitesmoke !important;
+    background-color: #bf7c1d !important;
+}

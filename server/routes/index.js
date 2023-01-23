@@ -4,6 +4,6 @@ module.exports = app => {
     app.use('/', indexRouter)
 
     const factAndGifRouter = require('./cat-fact-and-gif.routes')
-    app.use('/fact-and-gif', factAndGifRouter)
+    app.use('/api/fact-and-gif', factAndGifRouter)
 
 }
